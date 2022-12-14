@@ -15,10 +15,10 @@ cd Trabajo-practico-javier
 
 ### Luego creamos la imagen en docker
 ```bash 
-docker build -t Trabajo-practico-javier.
+docker build -t tp-entorno .
 ```
 
 ### Y la ejecutamos
 ```bash 
-docker run -it Trabajo-practico-javier
+docker run -it tp-entorno
 ```
