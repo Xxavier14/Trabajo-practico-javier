@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Contador de lineas en blanco
+
 echo "La cantidad de lineas vacías es: $(grep -cx '' texto.txt) "
 
 # la funciona grep busca la conincidencia con el espacio vacio
