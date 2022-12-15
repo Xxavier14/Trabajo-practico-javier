@@ -2,6 +2,7 @@
 
 
 . filtro.sh
+
 texto=$(cat texto.txt)
 
 #inicializacion de variables
@@ -21,7 +22,7 @@ filtr=$(filtro $i)
     if [ ${#filtr} -gt ${#palabraLarga} ]
     then
       palabraLarga=$filtr
-    elif [ ${#filtr} -lt ${#palabraCorta} ]
+    elif [[ ${#filtr} -lt ${#palabraCorta} ]] && [ ${#filtr} -ne 0 ]
     then
       palabraCorta=$filtr
     fi
