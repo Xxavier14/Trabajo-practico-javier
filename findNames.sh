@@ -1,13 +1,12 @@
 #!/bin/bash
 
+#filtra palabra que comiencen con Mayuscula
 
-
-. filtro.sh
-#filtra palabra que comiencen con Mayuscula 
+. filtro.sh 
 
 
 texto=$(cat texto.txt)
-regex="^[A-Z]{1}([a-z]+$)"
+regex="[A-Z]{1}([a-z]+$)"
 
 
 touch filtradas.txt
