@@ -22,7 +22,7 @@ filtr=$(filtro $i)
     if [ ${#filtr} -gt ${#palabraLarga} ]
     then
       palabraLarga=$filtr
-    elif [[ ${#filtr} -lt ${#palabraCorta} ]] && [ ${#filtr} -ne 0 ]
+    elif [[ ${#filtr} -lt ${#palabraCorta} ]] && [ ${#filtr} -ne 0 ] # para que no tome espacios vacios
     then
       palabraCorta=$filtr
     fi
