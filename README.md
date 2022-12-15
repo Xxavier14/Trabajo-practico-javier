@@ -2,6 +2,8 @@
 
 ### Alumno: Javier, Juan Pablo
 
+## Informe: https://drive.google.com/file/d/1TeYTB3dqKWkgdCHUOgYVem8hwxDCma0X/view?usp=sharing
+
 ## Instrucciones para ejecutar el programa:
 
 ### Clonar el repositorio
